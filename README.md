@@ -1,6 +1,6 @@
 # Hi there, I'm Björn! 👋
 
-Welcome to my GitHub profile. I'm a software developer with a passion for creating dynamic and engaging web experiences. 
+Welcome to my GitHub profile. I'm a 17 years old software developer with a passion for creating dynamic and engaging web experiences. 
 
 ## 👨‍💻 About Me
 
