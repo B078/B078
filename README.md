@@ -36,5 +36,5 @@ Thanks for visiting my profile! Feel free to explore my projects and get in touc
 
 ## 📌 Pinned Repositories
 
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=your-github-username&repo=repo-name)](https://github.com/B078/Portfolio)
+[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?B078&repo=Portfolio)](https://github.com/B078/Portfolio)
 
