@@ -1,4 +1,4 @@
-#Welcom on my page
+# Welcome on my page
 
 Here are some ideas to get you started:
 
