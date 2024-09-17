@@ -6,7 +6,7 @@ Welcome to my GitHub profile. I'm a 17 years old software developer with a passi
 
 - 🔭 Currently working on: My portfolio and various web development projects.
 - 🌱 Learning: More about Laravel and CSS(media querys).
-- 📫 How to reach me: [Email](mailto:verschoorsb@gmail.com)
+- 📫 How to reach me: [verschoorsb@gmail.com](mailto:verschoorsb@gmail.com)
 
 ## 🚀 Projects
 
