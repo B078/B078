@@ -12,7 +12,7 @@ Welcome to my GitHub profile. I'm a software developer with a passion for creati
 
 Here are some of the projects I'm working on:
 
-- **[Dynamic Earth Data Fetcher](link-to-project)**: A project that fetches earth data from a JSON file and updates content on a webpage.
+- **[Dynamic Earth Data Fetcher](https://github.com/B078/Portfolio)**: A project that fetches earth data from a JSON file and updates content on a webpage.
 - **[Portfolio](https://github.com/B078/Portfolio)**: My personal portfolio showcasing my skills and projects.
 
 ## 🛠️ Technologies & Tools
