@@ -37,6 +37,6 @@ Thanks for visiting my profile! Feel free to explore my projects and get in touc
 ## 📌 Pinned Repositories
 
 [![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=Portfolio)](https://github.com/B078/Portfolio)
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=todoapp-larave)](https://github.com/B078/todoapp-laravel)
+[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=todoapp-laravel)](https://github.com/B078/todoapp-laravel)
 [![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=earth-data-fetcher)](https://github.com/B078/earth-data-fetcher)
 
