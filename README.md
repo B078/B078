@@ -1,7 +1,4 @@
-## Hi there 👋
-
-
-**B078/B078** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#Welcom on my page
 
 Here are some ideas to get you started:
 
