@@ -12,7 +12,7 @@ Welcome to my GitHub profile. I'm a 17 years old software developer with a passi
 
 Here are some of the projects I'm working on:
 
-- **[Dynamic Earth Data Fetcher](https://github.com/B078/Earth-Data-Fether)**: A project that fetches earth data from a JSON file and updates content on a webpage.
+- **[Dynamic Earth Data Fetcher](https://github.com/B078/earth-data-fether)**: A project that fetches earth data from a JSON file and updates content on a webpage.
 - **[Portfolio](https://github.com/B078/Portfolio)**: My personal portfolio showcasing my skills and projects.
 
 ## 🛠️ Technologies & Tools
