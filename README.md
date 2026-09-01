@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img src="./assets/header-light.svg" width="760" alt="Bjorn Verschoor, full-stack developer, founder of FiksUp, Dordrecht, Netherlands">
+  <img src="./assets/header-light.svg" width="760" alt="Bjorn Verschoor, full-stack developer, co-founder of FiksUp, Dordrecht, Netherlands">
 </picture>
 
 <a href="https://www.linkedin.com/in/bjorn-verschoor-50b754212/"><img src="./assets/badge-linkedin.svg" alt="LinkedIn"></a>&nbsp; <a href="mailto:verschoorsb@gmail.com"><img src="./assets/badge-email.svg" alt="Email"></a>&nbsp; <a href="https://www.instagram.com/bjornv_078"><img src="./assets/badge-instagram.svg" alt="Instagram"></a>&nbsp; <a href="https://fiksup.nl"><img src="./assets/badge-website.svg" alt="fiksup.nl"></a>
@@ -14,7 +14,7 @@
 
 </div>
 
-I am Bjorn Verschoor, a developer from Dordrecht in the Netherlands. I run **FiksUp**, where I build the product and the machine that ships it: the applications, the infrastructure they run on, and the automation that keeps both honest.
+I am Bjorn Verschoor, a developer from Dordrecht in the Netherlands. Together with [Richie van der Heij](https://github.com/Richievdheij) I run **FiksUp**, a two-person operation where we build the product and the machine that ships it: the applications, the infrastructure they run on, and the automation that keeps both honest.
 
 Most of that work is **multi-tenant B2B SaaS**. Every client gets their own site, their own content and their own daily operations, all on one codebase that has to stay correct while it keeps growing. That constraint drives almost every technical decision I make.
 
@@ -26,7 +26,7 @@ Alongside FiksUp I study **Software Development (MBO-4)** at ROC Da Vinci Colleg
 - **Multi-tenancy**: a shared schema with guards in the application layer and PostgreSQL Row Level Security underneath, so tenant isolation never depends on someone remembering a `WHERE` clause.
 - **Type safety**: TypeScript in strict mode, where `any` and suppressions count as defects. Shared contract packages hold the shapes, so a change breaks the build everywhere at once instead of quietly in production.
 - **Enforcement**: architecture a machine can check. Layer boundaries, dependency direction, linting and tests run in CI on every branch, because a reviewer should not be the only thing between a violation and `main`.
-- **Operations**: I run the platform myself. Docker and Traefik on a VPS, encrypted secrets versioned next to the code, object storage with automated backups, and build, deploy and alert notifications piped straight into the team channel.
+- **Operations**: we run the platform ourselves. Docker and Traefik on a VPS, encrypted secrets versioned next to the code, object storage with automated backups, and build, deploy and alert notifications piped straight into the team channel.
 - **Principles**: SOLID, DRY, KISS, separation of concerns, small focused units, and a commit history someone else can read.
 
 <h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-stack-dark.svg"><img src="./assets/heading-stack-light.svg" width="830" alt="Tech stack"></picture></h3>
@@ -45,11 +45,13 @@ Alongside FiksUp I study **Software Development (MBO-4)** at ROC Da Vinci Colleg
 
 <h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-fiksup-dark.svg"><img src="./assets/heading-fiksup-light.svg" width="830" alt="FiksUp"></picture></h3>
 
-[**FiksUp**](https://fiksup.nl) is the platform I design, build and operate. Every client gets a website on their own domain and in their own branding, a **CMS** for their content, and a **dashboard** for the daily operations around it. Most of them are construction and trades companies, the kind of business that wants a site that works and never wants to think about it again.
+[**FiksUp**](https://fiksup.nl) is the platform Richie and I design, build and operate, the two of us and nobody else. Every client gets a website on their own domain and in their own branding, a **CMS** for their content, and a **dashboard** for the daily operations around it. Most of them are construction and trades companies, the kind of business that wants a site that works and then never wants to think about it again.
 
-The plans cover the common cases, and I take on custom work when a client needs something specific. The rest is on [fiksup.nl](https://fiksup.nl).
+Two people is also why the architecture is as strict as it is. There is no room for a codebase only one of us understands, and no room for a rule that a reviewer has to remember, so the boundaries are enforced by CI instead.
 
-The source stays private, but FiksUp is open for business. A partnership, an offer, or something we build together: if it works for both sides, I want to hear it.
+The plans cover the common cases, and we take on custom work when a client needs something specific. The rest is on [fiksup.nl](https://fiksup.nl).
+
+The source stays private, but FiksUp is open for business. A partnership, an offer, or something we build together: if it works for both sides, we want to hear it.
 
 <div align="center">
 
@@ -67,7 +69,3 @@ Open to freelance work, collaborations, and good engineering conversations. I wo
   <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
   <img src="./assets/divider-light.svg" width="830" alt="">
 </picture>
-
-<h4><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/subheading-background-dark.svg"><img src="./assets/subheading-background-light.svg" width="830" alt="Where I came from"></picture></h4>
-
-<sub>I started in PHP and Laravel, CodeIgniter, and untyped JavaScript, in school projects and codebases that were not mine. It taught me what unmaintainable looks like from the inside, which is most of the reason I work the way I do now. I can still read and maintain all of it, but my focus moved to TypeScript.</sub>
