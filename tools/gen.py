@@ -102,7 +102,7 @@ def path(d: str, fill: str, x: float, y: float) -> str:
 def header(theme: Theme) -> None:
     W, H = 760, 176
     name_d, name_w = DISPLAY.text("BJORN VERSCHOOR", 58, tracking=-1.2)
-    role = "FULL-STACK DEVELOPER   /   FOUNDER OF FIKSUP   /   DORDRECHT, NL"
+    role = "FULL-STACK DEVELOPER   /   CO-FOUNDER OF FIKSUP   /   DORDRECHT, NL"
     role_d, role_w = MONO.text(role, 12.5, tracking=1.6)
     body = [
         f'<rect x="0" y="0" width="{W}" height="{H}" fill="none"/>',
@@ -210,7 +210,6 @@ for theme in (LIGHT, DARK):
     header(theme)
     divider(theme)
     subheading("core", "Core: what I work in every day", theme)
-    subheading("background", "Where I came from", theme)
     for slug, index, title in SECTIONS:
         heading(slug, index, title, theme)
 
