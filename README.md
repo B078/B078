@@ -1,43 +1,73 @@
-# Hi there, I'm Björn! 👋
+<div align="center">
 
-Welcome to my GitHub profile. I'm a 17 years old software developer with a passion for creating dynamic and engaging web experiences. 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" width="760" alt="Bjorn Verschoor, full-stack developer, founder of FiksUp, Dordrecht, Netherlands">
+</picture>
 
-## 👨‍💻 About Me
+<a href="https://www.linkedin.com/in/bjorn-verschoor-50b754212/"><img src="./assets/badge-linkedin.svg" alt="LinkedIn"></a>&nbsp; <a href="mailto:verschoorsb@gmail.com"><img src="./assets/badge-email.svg" alt="Email"></a>&nbsp; <a href="https://www.instagram.com/bjornv_078"><img src="./assets/badge-instagram.svg" alt="Instagram"></a>&nbsp; <a href="https://fiksup.nl"><img src="./assets/badge-website.svg" alt="fiksup.nl"></a>
 
-- 🔭 Currently working on: My portfolio and various web development projects.
-- 🌱 Learning: More about Laravel and CSS(media querys).
-- 📫 How to reach me: [verschoorsb@gmail.com](mailto:verschoorsb@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <img src="./assets/divider-light.svg" width="830" alt="">
+</picture>
 
-## 🚀 Projects
+</div>
 
-Here are some of the projects I'm working on:
+I am Bjorn Verschoor, a developer from Dordrecht in the Netherlands. I run **FiksUp**, where I build the product and the machine that ships it: the applications, the infrastructure they run on, and the automation that keeps both honest.
 
-- **[Dynamic Earth Data Fetcher](https://github.com/B078/earth-data-fetcher)**: A project that fetches earth data from a JSON file and updates content on a webpage.
-- **[Portfolio](https://github.com/B078/Portfolio)**: My personal portfolio showcasing my skills and projects.
+Most of that work is **multi-tenant B2B SaaS**. Every client gets their own site, their own content and their own daily operations, all on one codebase that has to stay correct while it keeps growing. That constraint drives almost every technical decision I make.
 
-## 🛠️ Technologies & Tools
+Alongside FiksUp I study **Software Development (MBO-4)** at ROC Da Vinci College. Running a platform in production is the part of my education that actually teaches me the most.
 
-- **Languages**: HTML/CSS, JS, Python, PHP
-- **Frameworks**: Laravel
-- **Tools**: VSCode, Chrome DevTools
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-how-i-build-dark.svg"><img src="./assets/heading-how-i-build-light.svg" width="830" alt="How I build"></picture></h3>
 
-## 🎯 Goals
+- **Architecture**: a monorepo with Feature-Sliced Design on the frontend and a strict Controller → Service → Repository chain on the backend. Layers reference downward only, and slices talk to each other through an explicit public API.
+- **Multi-tenancy**: a shared schema with guards in the application layer and PostgreSQL Row Level Security underneath, so tenant isolation never depends on someone remembering a `WHERE` clause.
+- **Type safety**: TypeScript in strict mode, where `any` and suppressions count as defects. Shared contract packages hold the shapes, so a change breaks the build everywhere at once instead of quietly in production.
+- **Enforcement**: architecture a machine can check. Layer boundaries, dependency direction, linting and tests run in CI on every branch, because a reviewer should not be the only thing between a violation and `main`.
+- **Operations**: I run the platform myself. Docker and Traefik on a VPS, encrypted secrets versioned next to the code, object storage with automated backups, and build, deploy and alert notifications piped straight into the team channel.
+- **Principles**: SOLID, DRY, KISS, separation of concerns, small focused units, and a commit history someone else can read.
 
-- Contribute to open-source projects.
-- Continue learning and improving my skills in web development.
-- Build and release more innovative projects.
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-stack-dark.svg"><img src="./assets/heading-stack-light.svg" width="830" alt="Tech stack"></picture></h3>
 
-## 🤝 Connect with Me
+<h4><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/subheading-core-dark.svg"><img src="./assets/subheading-core-light.svg" width="830" alt="Core: what I work in every day"></picture></h4>
 
-- [Instagram](https://www.instagram.com/bjornv_078)
+| Layer | Stack |
+| :--- | :--- |
+| **Language** | TypeScript (strict mode) |
+| **Frontend** | Vue 3 and Nuxt 4 (Composition API, Pinia, i18n), Feature-Sliced Design, SCSS with design tokens, SSR / SSG / SPA |
+| **Backend** | NestJS and Node.js, versioned REST APIs, OpenAPI |
+| **Data** | PostgreSQL and TypeORM (migration-owned schema, Row Level Security), Payload CMS |
+| **Infra & DevOps** | Docker and Traefik, GitHub Actions, SOPS and age, Cloudflare R2, Resend |
+| **Auth & Access** | Better Auth (sessions, cross-subdomain SSO, TOTP 2FA, organizations), role-based access control |
+| **Tooling** | pnpm workspaces and Turborepo, ESLint and Prettier, Git and GitHub, Figma |
 
-Thanks for visiting my profile! Feel free to explore my projects and get in touch. 😊
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-fiksup-dark.svg"><img src="./assets/heading-fiksup-light.svg" width="830" alt="FiksUp"></picture></h3>
 
+[**FiksUp**](https://fiksup.nl) is the platform I design, build and operate. Every client gets a website on their own domain and in their own branding, a **CMS** for their content, and a **dashboard** for the daily operations around it. Most of them are construction and trades companies, the kind of business that wants a site that works and never wants to think about it again.
 
-## 📌 Pinned Repositories
+The plans cover the common cases, and I take on custom work when a client needs something specific. The rest is on [fiksup.nl](https://fiksup.nl).
 
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=Portfolio)](https://github.com/B078/Portfolio)
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=todoapp-laravel)](https://github.com/B078/todoapp-laravel)
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=earth-data-fetcher)](https://github.com/B078/earth-data-fetcher)
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=B078&repo=socials-links)](https://github.com/B078/socials-links)
+The source stays private, but FiksUp is open for business. A partnership, an offer, or something we build together: if it works for both sides, I want to hear it.
 
+<div align="center">
+
+<a href="https://www.instagram.com/fiksup.nl"><img src="./assets/badge-fiksup-instagram.svg" alt="FiksUp on Instagram"></a>&nbsp; <a href="https://www.linkedin.com/company/fiksup/"><img src="./assets/badge-fiksup-linkedin.svg" alt="FiksUp on LinkedIn"></a>&nbsp; <a href="https://x.com/FiksUp_nl"><img src="./assets/badge-fiksup-x.svg" alt="FiksUp on X"></a>&nbsp; <a href="https://www.tiktok.com/@fiksup.nl"><img src="./assets/badge-fiksup-tiktok.svg" alt="FiksUp on TikTok"></a>&nbsp; <a href="https://www.youtube.com/@Fiksupofficial"><img src="./assets/badge-fiksup-youtube.svg" alt="FiksUp on YouTube"></a>&nbsp; <a href="https://www.facebook.com/profile.php?id=61572191671571"><img src="./assets/badge-fiksup-facebook.svg" alt="FiksUp on Facebook"></a>
+
+<sub>Business inquiries: <a href="mailto:info@fiksup.nl">info@fiksup.nl</a></sub>
+
+</div>
+
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/heading-contact-dark.svg"><img src="./assets/heading-contact-light.svg" width="830" alt="Contact"></picture></h3>
+
+Open to freelance work, collaborations, and good engineering conversations. I work in Dutch and English. Reach me by [mail](mailto:verschoorsb@gmail.com), on [LinkedIn](https://www.linkedin.com/in/bjorn-verschoor-50b754212/), or through any of the accounts above.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <img src="./assets/divider-light.svg" width="830" alt="">
+</picture>
+
+<h4><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/subheading-background-dark.svg"><img src="./assets/subheading-background-light.svg" width="830" alt="Where I came from"></picture></h4>
+
+<sub>I started in PHP and Laravel, CodeIgniter, and untyped JavaScript, in school projects and codebases that were not mine. It taught me what unmaintainable looks like from the inside, which is most of the reason I work the way I do now. I can still read and maintain all of it, but my focus moved to TypeScript.</sub>
